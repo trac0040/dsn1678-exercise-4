@@ -45,4 +45,35 @@ section {
 	}
 }
 
+.shuttle-section{
+	background-color:rgba(238,187,73,1.00);
+}
+
+.shuttle{
+	width:300px;
+	position:relative;
+	top:10em;
+	opacity:0;
+}
+
+.js-shuttle-up{
+	-webkit-animation:shuttle-up 0.8s linear forwards;
+}
+
+@-webkit-keyframes shuttle-up{
+	0%{
+		top:10em;
+		opacity:0;
+	}
+	
+	50%{
+		opacity:1;
+	}
+	
+	100%{
+		top:0;
+		opacity:1;
+	}
+}
+
 
