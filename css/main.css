@@ -30,7 +30,8 @@ section {
 
 .js-dipper-fade{
 /*Don't forget to put all the prefixes!! */
-	-webkit-animation:dipper-fade 1s linear;
+/* forwards ensures that the animation goes through and then stay the way that it ended on its last keyframe */
+	-webkit-animation:dipper-fade 1s linear forwards;
 }
 
 /*Don't forget to put all the prefixes!! */
