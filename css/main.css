@@ -17,3 +17,8 @@ section {
 .sun{
 	width:300px;
 }
+
+.sun-section{
+	background:transparent url("../img/mars-pano.jpg") no-repeat center top;
+	background-size: cover;
+}
