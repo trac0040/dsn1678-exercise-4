@@ -81,14 +81,17 @@ section {
 	background:cover;
 }
 
-ul{
-	display:block;
+div{
+	overflow:hidden;
 	position:relative;
 }
 
-li{
-	width:200px;
-	padding:1em;
-	float:left;
+ul{
+	list-style-type:none;
 }
 
+li{
+	display:inline block;
+	width:200px;
+	float:left;
+}
