@@ -20,5 +20,28 @@ section {
 
 .sun-section{
 	background:transparent url("../img/mars-pano.jpg") no-repeat center top;
-	background-size: cover;
+	background-size:cover;
 }
+
+.dipper{
+	width:300px;
+	opacity:0;
+}
+
+.js-dipper-fade{
+/*Don't forget to put all the prefixes!! */
+	-webkit-animation:dipper-fade 1s linear;
+}
+
+/*Don't forget to put all the prefixes!! */
+
+@-webkit-keyframes dipper-fade{
+	0%{
+		opacity:0;
+	}
+	100%{
+		opacity:1;
+	}
+}
+
+
